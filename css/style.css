@@ -1,0 +1,69 @@
+.titulo {
+  font-family: "Clicker Script";
+  font-size: 51pt; }
+
+body {
+  background-color: #e9e9e9; }
+
+#quienSoy {
+  text-align: center; }
+
+.texto1 {
+  color: #464646;
+  margin-top: 40px;
+  padding-left: 250pt;
+  padding-right: 250pt;
+  font-family: "Roboto Condensed";
+  font-size: 16pt; }
+
+hr {
+  margin-left: 700px;
+  margin-right: 700px;
+  color: #7c7ac5; }
+
+* {
+  margin: 0; }
+
+html {
+  width: 100%; }
+
+nav {
+  font-family: "Clicker Script";
+  font-size: 32pt;
+  margin-bottom: 25px; }
+
+.nav {
+  display: flex;
+  justify-content: center; }
+
+a {
+  text-decoration: none; }
+
+.nav-link {
+  color: #6f4ab4; }
+
+.nav-link:hover {
+  color: #7c7ac5; }
+
+.nav-link:focus {
+  color: #7aa1be; }
+
+.sam {
+  display: flex;
+  justify-content: center; }
+
+.sam img {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  width: 55%;
+  display: flex;
+  align-items: center; }
+
+.header {
+  color: #36a0ff;
+  font-size: 27px;
+  padding: 10px; }
+
+.bigicon {
+  font-size: 35px;
+  color: #36a0ff; }
