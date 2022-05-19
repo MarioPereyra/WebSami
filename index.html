@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Nunito&family=Roboto+Condensed&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Montserrat&family=Nunito&family=Roboto+Condensed&display=swap"
       rel="stylesheet"
     />
     <link rel="shorcut icon" href="./img/ico.png" />
@@ -37,7 +37,7 @@
               <a class="nav-link" href="#tienda">¡Conseguí mi libro!</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#blog">Blog</a>
+              <a class="nav-link" href="#charlas">Charlas</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#prensa">Prensa</a>
@@ -80,6 +80,7 @@
     </div>
     <div id="leyes">
       <h1 class="titulo">Leyes</h1>
+      <hr />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat soluta
         quisquam, recusandae nihil officiis doloribus iste est deserunt itaque?
@@ -89,53 +90,81 @@
     </div>
     <div id="tienda">
       <h1 class="titulo">¡Conseguí mi libro!</h1>
-      <p>
-        ¡Visitá la tienda de
-        <a href="https://kalistasports.com.ar/">Kalista</a>!
-      </p>
-    </div>
-    <div id="blog">
-      <h1 class="titulo">Blog</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-        molestiae ea inventore laborum laudantium doloremque maiores quaerat.
-        Omnis, alias? Fuga, deleniti quidem? Animi hic doloremque quisquam earum
-        laudantium dignissimos eaque..
-      </p>
-    </div>
-    <div id="prensa">
-      <h1 class="titulo">Prensa</h1>
-      <!-- API linktree -->
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit officiis
-        ratione ipsa accusamus dolor quisquam libero ut expedita illo, dicta qui
-        facilis. Ipsam, tenetur earum quisquam recusandae porro ipsa? Suscipit?
-      </p>
-    </div>
-    <div id="contacto">
-      <h1 class="titulo">Contacto</h1>
-      <form method="post" action="test.php">
-        <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre" /><br />
+      <hr />
+      <div class="contenedorLibros">
+        <div class="card" style="width: 18rem">
+          <img src="./img/libro.png" class="card-img-top" alt="Libro Digital" />
+          <div class="card-body">
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+              itaque quibusdam! Quod sequi accusantium qui odio, aperiam ab eum
+              magni maxime saepe laudantium? Voluptatum corporis magni
+              voluptate. Exercitationem, doloribus repellendus?
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./img/libro.png" class="card-img-top" alt="Libro Físico" />
+          <div class="card-body">
+            <p class="card-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Molestiae ipsum debitis dolores dicta, similique animi ut optio
+              quibusdam pariatur sunt possimus aliquam, veritatis commodi dolor
+              ullam, nihil distinctio inventore soluta?
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="./img/libro.png"
+            class="card-img-top"
+            alt="Cuadrito Diversidad"
+          />
+          <div class="card-body">
+            <h2 class="card-text">Cuadrito "Diversidad corporal."</h2>
+            <p class="card-text-off">$1500</p>
+            <p class="card-text">$1000</p>
+            <p class="card-text">12 cuotas sin interés de $83.33</p>
+          </div>
+        </div>
+      </div>
+      <div id="charlas">
+        <h1 class="titulo">Charlas</h1>
+        <hr />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+          molestiae ea inventore laborum laudantium doloremque maiores quaerat.
+          Omnis, alias? Fuga, deleniti quidem? Animi hic doloremque quisquam
+          earum laudantium dignissimos eaque..
+        </p>
+      </div>
+      <div id="prensa">
+        <h1 class="titulo">Prensa</h1>
+        <hr />
+        <!-- API linktree -->
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+          officiis ratione ipsa accusamus dolor quisquam libero ut expedita
+          illo, dicta qui facilis. Ipsam, tenetur earum quisquam recusandae
+          porro ipsa? Suscipit?
+        </p>
+      </div>
+      <div id="contacto">
+        <h1 class="titulo">Contacto</h1>
+        <hr />
 
-        <label for="asunto">Asunto:</label>
-        <input type="text" name="asunto" id="asunto" /><br />
-
-        <label for="mensaje">Mensaje:</label>
-        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea
-        ><br />
-
-        <input type="submit" />
-      </form>
-      <!-- Esto con CSS, será un formulario que debería tratar de mandar el mail. Tengo que hacer la prueba correspondiente. -->
+        <!-- Esto con CSS, será un formulario que debería tratar de mandar el mail. Tengo que hacer la prueba correspondiente. -->
+      </div>
+      <footer>
+        <div>
+          <!-- Armar footer -->
+        </div>
+      </footer>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+      ></script>
     </div>
-    <footer>
-      <div></div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
