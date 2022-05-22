@@ -1,5 +1,6 @@
 * {
-  margin: 0; }
+  margin: 0;
+  list-style: none; }
 
 html {
   width: 100%; }
@@ -42,7 +43,7 @@ a {
   padding: 10px; }
 
 .titulo {
-  font-family: "Clicker Script";
+  font-family: "Clicker Script", sans-serif;
   font-size: 51pt; }
 
 body {
@@ -50,6 +51,7 @@ body {
 
 .titulo {
   text-align: center;
+  margin-top: 40px;
   margin-bottom: 40px; }
 
 .texto1 {
@@ -75,14 +77,85 @@ hr {
   display: flex;
   justify-content: space-evenly; }
 
-.test:hover {
-  transform: scale(1.01);
-  background: #6f4ab4; }
+.contenedorExt {
+  display: flex;
+  flex-direction: row; }
 
-.card-body {
-  background-color: #f5daef;
-  font-family: "Montserrat"; }
+.contenedorLibro {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
-.card-text-off {
-  text-decoration: line-through;
-  font-family: "Montserrat"; }
+.tarjeta {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.tarjeta p {
+  text-align: center;
+  border-radius: 3%;
+  width: 80%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #a6d8e1; }
+
+.tarjeta {
+  -moz-transition: all 0.25s linear;
+  -ms-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear; }
+
+.tarjeta img {
+  opacity: 1;
+  -moz-transition: all 0.25s linear;
+  -ms-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear; }
+
+img:hover {
+  opacity: 0.7;
+  -moz-transition: all 0.25s linear;
+  -ms-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear; }
+
+.contenedorTarj {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 120px; }
+
+.btn-primary {
+  background-color: #6f4ab4;
+  border-color: #4c286e; }
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+svg {
+  width: 60px;
+  height: 60px; }
+
+.contenedorSoc {
+  margin: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.btn-outline-secondary {
+  color: #7aa1be;
+  border-color: #7aa1be; }
+
+.btn-outline-secondary:hover {
+  color: #4c286e;
+  background-color: #7c7ac5;
+  transform: scale(1.2);
+  transition: 0.25s; }
