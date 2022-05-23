@@ -1,6 +1,8 @@
 * {
   margin: 0;
-  list-style: none; }
+  list-style: none;
+  text-decoration: none;
+  text-align: center; }
 
 html {
   width: 100%; }
@@ -11,7 +13,11 @@ nav {
   margin-bottom: 25px; }
 
 .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center; }
 
 a {
@@ -27,14 +33,22 @@ a {
   color: #7aa1be; }
 
 .sam {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center; }
 
 .sam img {
   margin-top: 40px;
   margin-bottom: 80px;
   width: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center; }
 
 .header {
@@ -57,10 +71,18 @@ body {
 .texto1 {
   color: #464646;
   margin-top: 40px;
-  padding-left: 250pt;
-  padding-right: 250pt;
+  padding-left: 230pt;
+  padding-right: 230pt;
   font-family: "Roboto Condensed";
-  font-size: 16pt; }
+  font-size: 16pt;
+  text-align: justify; }
+
+#leyes {
+  margin-top: 150px;
+  margin-bottom: 150px; }
+
+.deco {
+  font-weight: strong; }
 
 hr {
   margin-left: 700px;
@@ -74,22 +96,46 @@ hr {
 .contenedorLibros {
   margin-top: 70px;
   margin-bottom: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly; }
 
 .contenedorExt {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row; }
 
-.contenedorLibro {
+.contenedorLibro,
+.contenedorLeyes {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center; }
 
 .tarjeta {
   width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center; }
 
 .tarjeta p {
@@ -102,38 +148,74 @@ hr {
   padding-bottom: 20px;
   background-color: #a6d8e1; }
 
+.tarjetaLeyes {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.tarjetaLeyes p {
+  text-align: justify;
+  border-radius: 3%;
+  width: 80%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Montserrat", sans-serif; }
+
+.tarjetaLeyes {
+  -o-transition: all 0.25s linear;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear; }
+
+.tarjetaLeyes img {
+  margin-bottom: 45px; }
+
 .tarjeta {
-  -moz-transition: all 0.25s linear;
-  -ms-transition: all 0.25s linear;
   -o-transition: all 0.25s linear;
   -webkit-transition: all 0.25s linear;
   transition: all 0.25s linear; }
 
 .tarjeta img {
   opacity: 1;
-  -moz-transition: all 0.25s linear;
-  -ms-transition: all 0.25s linear;
   -o-transition: all 0.25s linear;
   -webkit-transition: all 0.25s linear;
   transition: all 0.25s linear; }
 
 img:hover {
   opacity: 0.7;
-  -moz-transition: all 0.25s linear;
-  -ms-transition: all 0.25s linear;
   -o-transition: all 0.25s linear;
   -webkit-transition: all 0.25s linear;
   transition: all 0.25s linear; }
 
 .contenedorTarj {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   margin-bottom: 120px; }
 
 .btn-primary {
   background-color: #6f4ab4;
   border-color: #4c286e; }
+
+.linktree {
+  width: 1600px;
+  height: 600px; }
 
 .social {
   display: flex;

@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+}
+
+body {
+  background-image: -o-radial-gradient(
+    -19.64% 37.72%,
+    circle,
+    #a9daca 0,
+    #a5dbcf 3.33%,
+    #a2dbd4 6.67%,
+    #a0dbd9 10%,
+    #9fdade 13.33%,
+    #9fdae3 16.67%,
+    #a0d9e7 20%,
+    #a2d8eb 23.33%,
+    #a6d7ee 26.67%,
+    #aad6f0 30%,
+    #aed5f2 33.33%,
+    #b4d4f4 36.67%,
+    #bad2f4 40%,
+    #c0d0f4 43.33%,
+    #c7cff3 46.67%,
+    #cdcdf2 50%,
+    #d3cbf0 53.33%,
+    #d9caed 56.67%,
+    #dfc8ea 60%,
+    #e4c7e6 63.33%,
+    #e9c6e2 66.67%,
+    #edc5dd 70%,
+    #f1c4d8 73.33%,
+    #f3c3d3 76.67%,
+    #f5c3ce 80%,
+    #f6c3c9 83.33%,
+    #f7c4c4 86.67%,
+    #f7c4c0 90%,
+    #f6c5bb 93.33%,
+    #f4c6b7 96.67%,
+    #f1c7b4 100%
+  );
+  background-image: radial-gradient(
+    circle at -19.64% 37.72%,
+    #a9daca 0,
+    #a5dbcf 3.33%,
+    #a2dbd4 6.67%,
+    #a0dbd9 10%,
+    #9fdade 13.33%,
+    #9fdae3 16.67%,
+    #a0d9e7 20%,
+    #a2d8eb 23.33%,
+    #a6d7ee 26.67%,
+    #aad6f0 30%,
+    #aed5f2 33.33%,
+    #b4d4f4 36.67%,
+    #bad2f4 40%,
+    #c0d0f4 43.33%,
+    #c7cff3 46.67%,
+    #cdcdf2 50%,
+    #d3cbf0 53.33%,
+    #d9caed 56.67%,
+    #dfc8ea 60%,
+    #e4c7e6 63.33%,
+    #e9c6e2 66.67%,
+    #edc5dd 70%,
+    #f1c4d8 73.33%,
+    #f3c3d3 76.67%,
+    #f5c3ce 80%,
+    #f6c3c9 83.33%,
+    #f7c4c4 86.67%,
+    #f7c4c0 90%,
+    #f6c5bb 93.33%,
+    #f4c6b7 96.67%,
+    #f1c7b4 100%
+  );
+}
+
+.contenedorLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.links {
+  color: rgb(48, 48, 48);
+  border: solid 2px white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+  width: 31%;
+  margin: 12px;
+  text-align: center;
+  font-size: 15pt;
+  letter-spacing: 1.2pt;
+  -webkit-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+  font-family: "Rubik";
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.links:hover {
+  background-color: white;
+  color: #6f4ab4;
+}
