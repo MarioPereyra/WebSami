@@ -530,6 +530,8 @@ li img {
     width: 22rem !important;
   }
   .ft-legal-list li {
+    font-size: 11pt;
     text-align: center;
+    margin: 0;
   }
 }
