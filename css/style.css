@@ -529,4 +529,7 @@ li img {
   .card {
     width: 22rem !important;
   }
+  .ft-legal-list li {
+    text-align: center;
+  }
 }
