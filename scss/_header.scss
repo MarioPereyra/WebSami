@@ -1,0 +1,74 @@
+$font-clicker: "Clicker Script";
+$color1: #4c286e;
+$color2: #6f4ab4;
+$color3: #7c7ac5;
+$color4: #7aa1be;
+$color5: #a6d8e1;
+
+* {
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+html {
+  width: 100%;
+}
+
+nav {
+  font-family: $font-clicker;
+  font-size: 32pt;
+  margin-bottom: 25px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-link {
+  color: $color2;
+}
+
+.nav-link:hover {
+  color: $color3;
+}
+
+.nav-link:focus {
+  color: $color4;
+}
+.sam {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.sam img {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  width: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header {
+  color: #36a0ff;
+  font-size: 27px;
+  padding: 10px;
+}
