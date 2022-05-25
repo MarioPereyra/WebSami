@@ -1,0 +1,65 @@
+@media only screen and (min-width: 768px) {
+  /* Desktop */
+}
+@media only screen and (max-width: 768px) {
+  /* Tablets */
+  .sam img {
+    width: 90%;
+  }
+  .texto1 {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .contenedorExtL {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tarjetaL {
+    margin-top: 20px;
+  }
+
+  .contenedorExt {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenedorLibro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    width: 27rem !important;
+  }
+  .contenedorTarj {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* Mobile */
+
+  .nav {
+    font-size: 20pt;
+  }
+  .texto1 {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .sam img {
+    width: 100%;
+  }
+
+  .card {
+    width: 22rem !important;
+  }
+}
