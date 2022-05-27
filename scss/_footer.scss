@@ -104,8 +104,28 @@ li img {
 
 /* Footer social */
 .ft-social {
-  padding: 0 1.875rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
+
+.tit {
+  font-family: $font-clicker !important;
+  font-size: 35pt !important;
+}
+
+.ft-social li {
+  font-family: "Montserrat";
+  letter-spacing: 2px;
+  font-size: 15pt;
+  color: #4c286e;
+}
+
+.ft-social a {
+  color: $color2;
+}
+
 .ft-social-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -117,7 +137,7 @@ li img {
   padding-top: 1.25rem;
 }
 .ft-social-list li {
-  margin: 0.5rem;
+  text-align: center;
   font-size: 1.25rem;
 }
 /* Footer legal */
