@@ -66,6 +66,10 @@
   .logo {
     width: 30%;
   }
+  .ft-social {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -101,5 +105,21 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+
+  .charla {
+    font-size: 15pt;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .logo {
+    width: 40%;
+  }
+
+  .ft-social {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-right: 20px;
   }
 }
